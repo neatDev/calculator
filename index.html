@@ -8,7 +8,44 @@
 </head>
 
 <body>
-  
+  <div class="container">
+
+    <div id="screen-top">0</div>
+    <div id="screen-bottom">0</div>
+
+    <div class="keyboard">
+      <button class="function" id="backspace"><span>&#8592;</span></button>
+      <button class="function" id="clear-entry"><span>CE</span></button>
+      <button class="function" id="clear"><span>C</span></button>
+      <button class="operator" value="÷"><span>÷</span></button>
+
+      <button class="digit" value="7"><span>7</span></button>
+      <button class="digit" value="8"><span>8</span></button>
+      <button class="digit" value="9"><span>9</span></button>
+      <button class="operator" value="x"><span>x</span></button>
+
+
+      <button class="digit" value="4"><span>4</span></button>
+      <button class="digit" value="5"><span>5</span></button>
+      <button class="digit" value="6"><span>6</span></button>
+      <button class="operator" value="-"><span>-</span></button>
+
+
+      <button class="digit" value="1"><span>1</span></button>
+      <button class="digit" value="2"><span>2</span></button>
+      <button class="digit" value="3"><span>3</span></button>
+      <button class="operator" value="+"><span>+</span></button>
+
+      <button class="function" id="switch" title="Switch between pure javascript and math.js"><span>Pure JS</span></button>
+      <button class="digit" value="0"><span>0</span></button>
+      <button class="function" value="." id="comma"><span>.</span></button>
+      <button class="function" value="=" id="equal"><span>=</span></button>
+    </div>
+
+  </div>
+  <div class='footer'>Developed by <a href='https://github.com/Shieboo' target='_blank'>Adrien Pardo</a>.</div>
+  <!-- ONLY USING math.js TO CORRECT FLOATING POINT ERROR -->
+  <script src="https://unpkg.com/mathjs@4.0.1/dist/math.min.js"></script>
   <script src="main.js"></script>
 </body>
 
