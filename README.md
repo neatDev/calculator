@@ -3,7 +3,7 @@ This is [my Calculator](https://shieboo.github.io/calculator/) for [The Odin Pro
 
 - I originally wanted to make it a pure JavaScript Calculator but the floating point error is too much complicated (for me) to solve. So if you want to have better accuracy with decimal number I suggest you turn math.js ON by clicking the button on the bottom left corner of the calculator.
 
-## Example of floating point error:
+Example of floating point error:
 
 - Using Pure JavaScript:
 0.1 + 0.2 = 0.30000000000000004 (wrong answer)
