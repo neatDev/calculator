@@ -12,6 +12,6 @@ Example of floating point error:
 0.1 + 0.2 = 0.3 (correct answer)
 
 
-### TO-DO:
+## TO-DO:
 
 I'll add keyboard support later but for now I'm happy with the current status of the project.
